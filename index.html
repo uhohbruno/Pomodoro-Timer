@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>pomodoro</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div id="startupAnimation">
+  <div class="header">
+    <h2> Pomodoro<span id="timerHeader">Timer </span> </h2>
+  </div>
+  <div id="containerOuter">
+    <div id="container">
+
+      <div id="timerGroup">
+
+        <div class="firstRow">
+          <a href="#" id="minus" class="timer">-</a>
+          <a href="#" id="pomodoro" class="timer">25</a>
+          <a href="#" id="plus" class="timer">+</a>
+          <div>
+            <p id="sessionLength">Session Length</p>
+          </div>
+
+
+          <div id="hourglass" class="clip-circle">
+            <div id="timeFluid"></div>
+          </div>
+
+          <div>
+            <p id="breakLength">Break Length</p>
+          </div>
+          <a href="#" id="minusBreak" class="timer">-</a>
+          <a href="#" id="break">5</a>
+          <a href="#" id="plusBreak" class="timer">+</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <h2> <a href="#" id="start">Start</a> </h2>
+    <h2> <a href="#" id="stop">Stop</a> </h2>
+  </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./js/js.js"></script>
+</body>
+
+</html>
